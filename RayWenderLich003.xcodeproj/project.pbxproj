@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5405ED1BF4688400BA8D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5405EC1BF4688400BA8D75 /* AppDelegate.swift */; };
+		BB5405EF1BF4688400BA8D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5405EE1BF4688400BA8D75 /* ViewController.swift */; };
+		BB5405F21BF4688400BA8D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5405F01BF4688400BA8D75 /* Main.storyboard */; };
+		BB5405F41BF4688400BA8D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5405F31BF4688400BA8D75 /* Assets.xcassets */; };
+		BB5405F71BF4688400BA8D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5405F51BF4688400BA8D75 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB5405E91BF4688400BA8D75 /* RayWenderLich003.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayWenderLich003.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5405EC1BF4688400BA8D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB5405EE1BF4688400BA8D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB5405F11BF4688400BA8D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB5405F31BF4688400BA8D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5405F61BF4688400BA8D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5405F81BF4688400BA8D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5405E61BF4688400BA8D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5405E01BF4688400BA8D75 = {
+			isa = PBXGroup;
+			children = (
+				BB5405EB1BF4688400BA8D75 /* RayWenderLich003 */,
+				BB5405EA1BF4688400BA8D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5405EA1BF4688400BA8D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5405E91BF4688400BA8D75 /* RayWenderLich003.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5405EB1BF4688400BA8D75 /* RayWenderLich003 */ = {
+			isa = PBXGroup;
+			children = (
+				BB5405EC1BF4688400BA8D75 /* AppDelegate.swift */,
+				BB5405EE1BF4688400BA8D75 /* ViewController.swift */,
+				BB5405F01BF4688400BA8D75 /* Main.storyboard */,
+				BB5405F31BF4688400BA8D75 /* Assets.xcassets */,
+				BB5405F51BF4688400BA8D75 /* LaunchScreen.storyboard */,
+				BB5405F81BF4688400BA8D75 /* Info.plist */,
+			);
+			path = RayWenderLich003;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5405E81BF4688400BA8D75 /* RayWenderLich003 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5405FB1BF4688400BA8D75 /* Build configuration list for PBXNativeTarget "RayWenderLich003" */;
+			buildPhases = (
+				BB5405E51BF4688400BA8D75 /* Sources */,
+				BB5405E61BF4688400BA8D75 /* Frameworks */,
+				BB5405E71BF4688400BA8D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayWenderLich003;
+			productName = RayWenderLich003;
+			productReference = BB5405E91BF4688400BA8D75 /* RayWenderLich003.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5405E11BF4688400BA8D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Eric Zhou";
+				TargetAttributes = {
+					BB5405E81BF4688400BA8D75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BB5405E41BF4688400BA8D75 /* Build configuration list for PBXProject "RayWenderLich003" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5405E01BF4688400BA8D75;
+			productRefGroup = BB5405EA1BF4688400BA8D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5405E81BF4688400BA8D75 /* RayWenderLich003 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5405E71BF4688400BA8D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5405F71BF4688400BA8D75 /* LaunchScreen.storyboard in Resources */,
+				BB5405F41BF4688400BA8D75 /* Assets.xcassets in Resources */,
+				BB5405F21BF4688400BA8D75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5405E51BF4688400BA8D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5405EF1BF4688400BA8D75 /* ViewController.swift in Sources */,
+				BB5405ED1BF4688400BA8D75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB5405F01BF4688400BA8D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5405F11BF4688400BA8D75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5405F51BF4688400BA8D75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5405F61BF4688400BA8D75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5405F91BF4688400BA8D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5405FA1BF4688400BA8D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5405FC1BF4688400BA8D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RayWenderLich003/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericzhou.elitegroup.RayWenderLich003;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB5405FD1BF4688400BA8D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RayWenderLich003/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericzhou.elitegroup.RayWenderLich003;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5405E41BF4688400BA8D75 /* Build configuration list for PBXProject "RayWenderLich003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5405F91BF4688400BA8D75 /* Debug */,
+				BB5405FA1BF4688400BA8D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5405FB1BF4688400BA8D75 /* Build configuration list for PBXNativeTarget "RayWenderLich003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5405FC1BF4688400BA8D75 /* Debug */,
+				BB5405FD1BF4688400BA8D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5405E11BF4688400BA8D75 /* Project object */;
+}
